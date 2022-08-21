@@ -1,5 +1,6 @@
 import React from "react";
 import { NavigationDots, SocialMedia } from "../../src/components";
+import { images } from "../constants";
 
 const AppWrapper = (Component, idName, classNames) =>
   function HOC() {
@@ -11,7 +12,12 @@ const AppWrapper = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text">@2022 HERMANSYAH PUTRA.</p>
+            <p className="p-text">
+              <span>
+                <img src={images.copy} alt="copyright" width={15} height={15} />
+              </span>
+              2022 HERMANSYAH PUTRA.
+            </p>
             <p className="p-text">All right reserved</p>
           </div>
         </div>

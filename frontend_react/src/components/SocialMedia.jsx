@@ -6,7 +6,9 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <BsGithub />
+        <a href="https://github.com/putraa22" target="_blank">
+          <BsGithub />
+        </a>
       </div>
       <div>
         <FaFacebookF />
