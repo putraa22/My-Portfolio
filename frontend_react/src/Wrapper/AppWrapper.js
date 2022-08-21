@@ -11,7 +11,7 @@ const AppWrapper = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text">@2022 TWENTY2.MARCH Corp.</p>
+            <p className="p-text">@2022 HERMANSYAH PUTRA.</p>
             <p className="p-text">All right reserved</p>
           </div>
         </div>
