@@ -31,7 +31,10 @@ import copy from "../assets/copy.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
+import avatar from "../assets/avatar.png";
+
 export default {
+  avatar,
   email,
   mobile,
   api,
