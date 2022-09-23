@@ -32,10 +32,13 @@ const Header = () => {
           <div className="tag-cmp app__flex">
             <p className="p-text">Front-End Developer</p>
           </div>
+          <div className="tag-cmp2 app__flex">
+            <p className="p-text">Full-Stack Developer</p>
+          </div>
         </div>
       </motion.div>
       <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5, delayChildren: 0.5 }} className="app__header-img">
-        <img src={images.avatar} alt="" />
+        <img src={images.pribadi} alt="profileImage" />
         <motion.img whileInView={{ scale: [0, 1] }} transition={{ duration: 1, ease: "easeInOut" }} src={images.circle} alt="profile_circle" className="overlay_circle" />
       </motion.div>
       <motion.div variants={scaleVariants} whileInView={scaleVariants.whileInView} className="app__header-circles">

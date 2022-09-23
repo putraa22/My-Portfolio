@@ -16,7 +16,7 @@ const SocialMedia = () => {
         </a>
       </div>
       <div>
-        <a href="https://web.facebook.com/Putraaa22/" rel="noreferrer">
+        <a href="https://web.facebook.com/Putraaa22/" target="_blank" rel="noreferrer">
           <BsInstagram />
         </a>
       </div>

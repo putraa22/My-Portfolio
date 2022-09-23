@@ -14,11 +14,11 @@ const AppWrapper = (Component, idName, classNames) =>
           <div className="copyright">
             <p className="p-text">
               <span>
-                <img src={images.copy} alt="copyright" width={15} height={15} />
+                <img src={images.copy} alt="copyright" width={12} height={12} />
               </span>
               2022 HERMANSYAH PUTRA.
             </p>
-            <p className="p-text">All right reserved</p>
+            <p className="p-text">All right reserved.</p>
           </div>
         </div>
         <NavigationDots active={idName} />

@@ -31,10 +31,10 @@ import copy from "../assets/copy.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
-import avatar from "../assets/avatar.png";
+import pribadi from "../assets/pribadi.png";
 
 export default {
-  avatar,
+  pribadi,
   email,
   mobile,
   api,
